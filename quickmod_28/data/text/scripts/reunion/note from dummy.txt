@@ -1,0 +1,1 @@
+note: some of the scripts are copied from reunion reboot instead of actual reunion, because i made them slightly better. e.g. password and stun display their names above affected equipment like shock/weaken

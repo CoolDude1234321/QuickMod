@@ -1,0 +1,71 @@
+// SETUP
+
+setdatapath("data/graphics/cutscenes/intro/");
+addbackground("intro_stage", {animation: "background_stage.json", pack: "background_stage.pck"});
+#include ladyluckbiggraphics.txt
+
+setdatapath("data/graphics/cutscenes/thief/");
+
+var thiefgraphics = {
+	idle: {
+		animation: "thief_idle.json",
+		pack: "thief.pck",
+		loop: true
+	},
+	worried_idle: {
+		animation: "thief_worried_idle.json",
+		pack: "thief.pck",
+		loop: true
+	}
+}
+var thief = addsprite("thief", 1, thiefgraphics);
+
+// HELPER FUNCTIONS	
+
+var fade_time = 0.4;
+
+// ACTORS
+actor("Lady Luck", screenwidthmid + 800, 550, Col.YELLOW, CENTER, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+actor("Thief", 2600, 780, Col.multiplylightness(Col.GREEN, 1.25), CENTER, BOTTOM, "chat_thief", "characters/thief/charicon_thief");
+actor("Witch", 2600, 600, 0xb496ec, RIGHT, TOP, "chat_witch", "characters/witch/charicon_witch");
+
+// INTRO
+
+play("music_cutscene_cheery");
+
+thief.scale = 0.5;
+thief.x = 2620 - ((thief.getwidth("idle") * thief.scale) / 2);
+thief.y = 890;
+changebackground("intro_stage");
+fadein();
+thief.show("idle");
+
+ladyluck_big.x = -screenwidth;
+ladyluck_big.show("idle");
+Actuate.tween(ladyluck_big, 2, { x: 0 }).ease(Expo.easeOut);
+
+wait(0.5);
+
+ladyluck_big.show("talking", true);
+actor("Lady Luck", screenwidthmid + 240, screenheightmid - 240, Col.YELLOW, RIGHT, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "...thief? What are you doing here?", "normal");
+speak("Lady Luck", "The race was 10 minutes ago. You're late!", "normal");
+ladyluck_big.show("idle", true);
+speak("Thief", "Oh, nothing. Just taking things that aren't mine.");
+speak("Thief", "By the way, do you have a subscrip-");
+ladyluck_big.show("talking-scary", true);
+actor("Lady Luck", screenwidthmid + 240, screenheightmid - 240, Col.YELLOW, RIGHT, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "You took what?!");
+ladyluck_big.show("idle-scary", true);
+thief.show("worried_idle");
+ladyluck_big.show("idle-confused", true);
+speak("Thief", "No, no, nothing of *your show*!|I'd know not to since the Broken Glass incident.", "worried");
+wait(0.5);
+speak("Witch", "T, where is my spellbook?", "normal");
+speak("Witch", "I don't wanna delay the upcoming ritual stream!");
+speak("Witch", "It's super important! Very very important!");
+wait(1);
+speak("Thief", "...fuck.");
+play("cutscene_audience"); // HE SAID IT, HE SAID THE SWEAR WORD
+wait(0.5);
+startgamefromcutscene();

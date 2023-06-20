@@ -1,0 +1,11 @@
+Name,Description,Size,Script: On Execute,Gadget,Slots,NEED TOTAL?,Colour,Upgrade,Weaken,Alternate Status Trigger,SFX,Uses?,Cast Backwards?,Single use?,Tags,Witch Spell,Script: Before Combat,Script: After Combat,Script: Before Start Turn,Script: On Start Turn,Script: On any equipment use,Script: On any countdown reduce,Script: End Turn,Script: Before execute,Script: On Snap,Script: On Fury,Script: On Dodge
+Hammer,Do [shock]<d6> damage[;]|on 6[;] inflict [shock]1 shock,2,/*excluded from randomlists so that only dummy's 'Item Idea' (which is almost identical) will show up. Joke.*/ attack(d[;] SHOCK); if(d == 6) inflict(SHOCK); if(d < 6) { sfxdamage(target[;]d); } else { sfxdamage(target[;]d); sfx(~_shock~[;]~~[;]0.2); },Jackhammer,NORMAL,,YELLOW,reducesize,change_power,,,0,NO,NO,excludefromrandomlists,,,,,,,,,,,,
+Hammer_downgraded,Do [shock]<d6> damage,2,attack(d[;] SHOCK);,Jackhammer,NORMAL,,YELLOW,,,,,0,NO,NO,excludefromrandomlists,,,,,,,,,,,,
+Hammer_weakened,Do [shock]<d6> damage,1,attack(d[;] SHOCK);,Jackhammer,NORMAL,,YELLOW,,,,,0,NO,NO,excludefromrandomlists,,,,,,,,,,,,
+Hammer_deckupgrade,Do [shock]<d6> damage|[shock]Shocks the enemy,2,attack(d[;] SHOCK); inflict(SHOCK);,Jackhammer,NORMAL,,YELLOW,,,,,0,NO,NO,excludefromrandomlists,,,,,,,,,,,,
+Spatulasword,Do [sword]<d6> damage[;] then|flip the dice upside down,2,/*given a gadget*/ attack(d); givedice(7 - d);,Megaflip,NORMAL,,RED,change_power,change_power,,,0,NO,NO,,,,,,,,,,,,,givedice(7 - d);
+Spatulasword_upgraded,Flip the dice upside down[;]|then do [sword]<flipd6> damage,2,attack(7 - d); givedice(7 - d);,Megaflip,NORMAL,,RED,,,,,0,NO,NO,,,,,,,,,,,,,givedice(7 - d);
+Spatulasword_downgraded,Flip a dice upside down,2,givedice(7 - d);,Megaflip,NORMAL,,RED,,,,,0,NO,NO,,,,,,,,,,,,,givedice(7 - d);
+Melody,Inflict [weaken]1 weaken,2,/*given a gadget*/ inflict(WEAKEN| 1);,Theremin,NORMAL,,ORANGE,change_power,complicate,,,0,NO,NO,,,,,,,,,,,,,
+Melody_upgraded,Inflict [weaken]2 weaken,2,inflict(WEAKEN| 2);,Theremin,NORMAL,,ORANGE,,,,,0,NO,NO,,,,,,,,,,,,,
+Fixed Payout_upgraded,Use two additional|Jackpot abilities,1,/*robot's episode needs different wording for fixed payout+*/ if(!simulation) { if(self.usecpuinsteadofdice) { self.roll_jackpotbonus += 2; } } bonus(-10000);,Infinity Mirror,EVEN,,YELLOW,,,,,0,YES,NO,robotonly,,,,,,,,,,,,

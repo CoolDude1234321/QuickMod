@@ -1,0 +1,92 @@
+// SETUP
+//Load the ending scene
+
+#include ladyluckbigscaryonly.txt
+
+setdatapath("data/graphics/cutscenes/endgame/scene_1/");
+
+addbackground("intro", {sprites: ["background.png"]});
+
+var ladyluckgraphics = {
+	talking: {
+		animation: "ladyluck_talking.json",
+		pack: "pack.pck",
+		speed: 3,
+		loop: true
+	},
+	idle: {
+		animation: "ladyluck_talking.json",
+		pack: "pack.pck",
+		speed: 0,
+		loop: false
+	}
+}
+
+var robotgraphics = {
+	talking: {
+		animation: "robot_talking.json",
+		pack: "pack.pck",
+		speed: 1,
+		loop: true
+	},
+	idle: {
+		animation: "robot_talking.json",
+		pack: "pack.pck",
+		speed: 0,
+		loop: false
+	}
+}
+
+var ladyluck = addsprite("ladyluck", 1, ladyluckgraphics);
+var robot = addsprite("robot", 1, robotgraphics);
+
+changebackground("intro");
+ladyluck.show("idle");
+robot.show("idle");
+
+play("music_cutscene_dark");
+fadein();
+
+actor("Robot", 150, screenheight - 400, 0xDDDDDD, CENTER, BOTTOM, "chat_robot", "characters/robot/charicon_robot");
+
+wait(0.5);
+
+ladyluck.show("talking");
+actor("Lady Luck", screenwidthmid + 300, 150, Col.YELLOW, LEFT, TOP, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "YES... HA HA HA... YES!", "scary");
+speak("Lady Luck", "WITH THIS NEW CONTEST-O-TRON 5000|I SHALL SPEED UP THE \"DICEY DUNGEONS\"|GAME SHOW RAPIDLY!", "scary");
+speak("Lady Luck", "NO MORE WASTED AIRTIME DEVOTED TO|DISTINCT CHARACTERS WITH QUICKY ARCHETYPES!");
+speak("Lady Luck", "THE ONLY CONTESTANT WILL BE THIS MOTHER FUCKER");
+speak("Lady Luck", "I'VE MANAGED TO MAKE IT DEMONSTRATE|ITS PERSONALITY 5000 TIMES PER SECOND|AS OPPOSED TO A MERE HUMAN'S 5 PER SECOND");
+ladyluck.show("idle");
+
+robot.show("talking");
+speak("Robot", "Startup function completed", "determined");
+speak("Robot", "If beep: then [leftbrace] Boop;() [rightbracket]", "thinking");
+robot.show("idle");
+
+ladyluck.show("talking");
+speak("Lady Luck", "VERY GOOD YOU FUCKING BOX.", "scary");
+speak("Lady Luck", "YOUR MISSION IS TO MAXIMIZE CONSUMER|ENTERTAINMENT METRICS AT THE COST OF|QUALITY SOPHISTICATED TELEVISION");
+speak("Lady Luck", "WE MAY LIVE IN A FUTURE WHERE THE AVERAGE|TELEVISION PROGRAMME IS FIVE POINT FOUR SECONDS");
+ladyluck.show("idle");
+
+robot.show("talking");
+speak("Robot", "<html> i  = 0x5f3759df - ( i >> 1 ); [leftbracket]/quote[rightbracket]", "determined");
+robot.show("idle");
+
+ladyluck.show("talking");
+speak("Lady Luck", "YES VERY GOOD INDEED.", "scary");
+speak("Lady Luck", "NOW YOU MUST KILL AND REPLACE ALL|THE OTHER CONTESTANTS USING YOUR|PATENTED \"GADGETIZATION\" ROUTINE TO|MIMIC THEIR EVERY MANNER OF WALK AND TALK.");
+ladyluck.show("idle");
+
+robot.show("talking");
+//"Executing parameters...|Status Code 100|Nginx was installed successfully.|I am a very good Bing."
+speak("Robot", "Status Code 100|Nginx was installed successfully.", "determined");
+robot.show("idle");
+
+ladyluck.show("talking");
+speak("Lady Luck", "OK SERIOUSLY GO.", "angry");
+ladyluck.show("idle");
+
+startgamefromcutscene();

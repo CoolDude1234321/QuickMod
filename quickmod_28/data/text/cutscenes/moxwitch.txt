@@ -1,0 +1,49 @@
+// SETUP
+
+setdatapath("data/graphics/cutscenes/endgame/scene_2/");
+
+addbackground("intro", {sprites: ["background.png"]});
+
+
+var charactergraphics = {
+	idle: {
+		animation: "witch_and_jester.json",
+		pack: "pack.pck",
+		speed: 1,
+		loop: true
+	}
+}
+
+var characters = addsprite("characters", 2, charactergraphics);
+
+play("music_cutscene_cheery");
+changebackground("intro");
+
+fadein();
+
+characters.show("idle", true);
+
+actor("Jester", 700, 100, Col.multiplylightness(Col.RED, 1.25), LEFT, TOP, "chat_jester", "characters/jester/charicon_jester");
+actor("Witch", screenwidth - 700, 100, 0xb496ec, RIGHT, TOP, "chat_witch", "characters/witch/charicon_witch");
+
+wait(0.5);
+
+speak("Witch", "Jesty, this spellbook isn't working out.|I'm so overwhelmed with cards!");
+speak("Witch", "And thief won't give me my spellbook back!");
+speak("Jester", "I do have an idea...|(and stop calling me Jesty.)");
+speak("Witch", "Oh? Will it need a tutorial?");
+speak("Jester", "Yes and yes! See, I have some magic|cards laying around.");
+speak("Jester", "Lady Luck told me to 'GO FASTER' so I've had to|toss those out in favor of a different gimmick.|Maybe you can have them?");
+speak("Witch", "Sure. But how do they work?");
+speak("Jester", "You start with my deck of cards system.");
+speak("Jester", "A lot of your cards need Mox. [red]Red[], [green]green[], or [blue]blue[].");
+speak("Jester", "[red]Red[] mox is bloodthirsty: you need to keep|attacking to keep it going.");
+speak("Jester", "[green]Green[] mox is fragile: you gain it from|using an Emerald Crystal but you could easily|lose it from using green items.|The chance for it to fade after use is always listed.");
+speak("Jester", "[blue]Blue[] mox is shy: you need to keep|a Lapis Totem visible to use it.");
+speak("Witch", "So I just need to synergize|mox-gaining with mox-using.");
+speak("Witch", "Sounds difficult.");
+speak("Jester", "I guess it is hard to get used to.|But I'll get you more dice to work with.|Good luck!");
+play("cutscene_audience");
+wait(0.5);
+speak("Witch", "Wait. We have an audience in the backrooms?!").dismiss_in = 0.3;
+startgamefromcutscene()

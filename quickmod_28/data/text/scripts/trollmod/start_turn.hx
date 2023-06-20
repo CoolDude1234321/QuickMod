@@ -1,0 +1,1 @@
+if (self.getvar(~hotspot~) == 0) {self.setvar(~hotspot~|rand([1|2|3|4|5|6])); trace(~Hotspot: ~+self.getvar(~hotspot~));}

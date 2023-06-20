@@ -1,0 +1,15 @@
+id,Name,Pack,Offset,Speed,Applies To
+reunion_berserk,berserk,pack3,10|270,1,berserk
+reunion_caw,caw,pack3,-20|250,1,caw|aaa|bbb
+reunion_costumechange,costumechange,pack3,10|240,1,costumechange
+reunion_delay,delay,pack3,0|200,1,delay
+reunion_password,password,pack3,10|280,1,password
+reunion_roseshield,roseshield,pack3,-40|230,1,roseshield
+reunion_scorch,scorch,pack3,-10|270,1,scorch
+reunion_simplify,simplify,pack3,140|380,1,simplify
+reunion_sting,sting,pack3,140|330,1,sting
+reunion_stun,stun,pack3,-20|230,1,stun
+reunion_toxic,toxic,pack3,-100|210,1,toxic
+reunion_trustfund,trustfund,pack3,10|230,1,trustfund
+reunion_turbocharge,turbocharge,pack3,70|410,1,none
+reunion_victorypoint,victorypoint,pack3,10|250,1,victorypoint

@@ -1,0 +1,1418 @@
+{
+    "atmos_castle": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 2",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_castle",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_secret": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - combat commander to base",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_castle",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_darkforest": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 3",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_darkforest",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_dungeon": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 2",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_dungeon",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_grotto": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 3",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_grotto",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_ice": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 1",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_ice",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_jungle": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 3",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_jungle",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_library": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 1",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_library",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_mountain": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 1",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_mountain",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "atmos_volcano": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - overworld 2",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "atmos",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.4
+                }
+            },
+            {
+                "channel": 1,
+                "file": "music/chest/chest_volcano",
+                "loop": true,
+                "tag": "chesttheme",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    
+    
+    "enteranvil2": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0.01,
+                "file": "music/goodmod ost - mr generic",
+                "loop": true,
+                "tag": "shoptheme",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "entershop2": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0.01,
+                "file": "music/goodmod ost - mr generic",
+                "loop": true,
+                "tag": "shoptheme",
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "entertradingpost2": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0.01,
+                "file": "music/goodmod ost - mr generic",
+                "loop": true,
+                "tag": "shoptheme",
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "music_boss_aoife": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - awesome song",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_boss_audrey": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - best boss music ever",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_boss_beatrice": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - awesome song",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_boss_buster": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - best boss music ever",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_boss_drake": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - chamber of sound",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_boss_madison": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - best boss music ever",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_boss_scathach": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - awesome song",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_challengescreen": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/shops/bestiary",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.5
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "channel": 1
+            }
+        ]
+    },
+    "music_characterselect": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - jimmy because remix",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0.5
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "channel": 1
+            }
+        ]
+    },
+    "music_combat1": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - hot summer remix",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_combat2": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - teeth",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_combat3": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - hot summer remix",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_combat4": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - teeth",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_combat5": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - hot summer remix",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_combat6": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - teeth",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_combat7": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "delay": 0,
+                "effect": "",
+                "file": "music/goodmod ost - jimmy because remix",
+                "filter": "",
+                "loop": true,
+                "panning": {
+                    "fade": 0,
+                    "max": 0,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                },
+                "pitch": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                },
+                "position": 0,
+                "syncbpm": 0,
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 2,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/title/title"
+            }
+        ]
+    },
+    "music_cutscene_cheery": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "file": "music/cutscene/crowd",
+                "loop": true
+            },
+            {
+                "channel": 1,
+                "file": "music/goodmod ost - wibi presents popcorn",
+                "loop": true,
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "music_cutscene_dark": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "file": "music/cutscene/crowd",
+                "loop": true
+            },
+            {
+                "channel": 1,
+                "file": "music/goodmod ost - scary music",
+                "loop": true,
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "music_cutscene_finalepisode": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "file": "music/cutscene/crowd",
+                "loop": true
+            },
+            {
+                "channel": 1,
+                "file": "music/atmos/finalepisode",
+                "loop": true,
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "music_cutscene_finale": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "file": "music/cutscene/crowd",
+                "loop": true
+            },
+            {
+                "channel": 1,
+                "file": "music/cutscene/cutscene_finale",
+                "loop": true,
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "music_cutscene_lesscheery": {
+        "playsounds": [
+            {
+                "channel": 1,
+                "file": "music/cutscene/crowd",
+                "loop": true
+            },
+            {
+                "channel": 1,
+                "file": "music/goodmod ost - wibi presents popcorn",
+                "loop": true,
+                "volume": {
+                    "fade": 1,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ]
+    },
+    "music_victory": {
+        "changeparams": [
+            {
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "playsounds": [
+            {
+                "channel": 1,
+                "file": "music/combat/victory",
+                "loop": true,
+                "tag": "victorytheme",
+                "volume": {
+                    "fade": 3,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 1
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/combat/combat8jester"
+            },
+            {
+                "file": "sfx/battle/lowhealth"
+            }
+        ]
+    },
+    "music_victoryboss": {
+        "changeparams": [
+            {
+                "tag": "combatmusic",
+                "volume": {
+                    "fade": 0,
+                    "max": 1,
+                    "min": 0,
+                    "random": false,
+                    "value": 0
+                }
+            }
+        ],
+        "stopsounds": [
+            {
+                "file": "music/combat/combat8jester"
+            },
+            {
+                "file": "sfx/battle/lowhealth"
+            }
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+// SETUP
+
+setdatapath("data/graphics/cutscenes/intro/");
+addbackground("intro_stage", {animation: "background_stage.json", pack: "background_stage.pck"});
+#include ladyluckbiggraphics.txt
+
+setdatapath("data/graphics/cutscenes/inventor/");
+
+var inventorgraphics = {
+	idle: {
+		animation: "inventor_idle.json",
+		pack: "inventor.pck",
+		loop: true
+	},
+	worried_idle: {
+		animation: "inventor_worried_idle.json",
+		pack: "inventor.pck",
+		loop: true
+	}
+}
+var inventor = addsprite("inventor", 1, inventorgraphics);
+
+// HELPER FUNCTIONS	
+
+var fade_time = 0.4;
+
+// ACTORS
+actor("Lady Luck", screenwidthmid + 800, 550, Col.YELLOW, CENTER, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+actor("Inventor", 2620, 780, 0xffe48d, CENTER, BOTTOM, "chat_inventor", "characters/inventor/charicon_inventor");
+
+// INTRO
+
+play("music_cutscene_lesscheery");
+
+inventor.scale = 0.5;
+inventor.x = 2570 - ((inventor.getwidth("idle") * inventor.scale) / 2);
+inventor.y = 840;
+changebackground("intro_stage");
+fadein();
+inventor.show("idle");
+
+ladyluck_big.x = -screenwidth;
+ladyluck_big.show("idle");
+Actuate.tween(ladyluck_big, 2, { x: 0 }).ease(Expo.easeOut);
+play("cutscene_audience");
+
+wait(0.5);
+
+actor("Inventor", 2620, 780, 0xffe48d, CENTER, BOTTOM, "chat_inventor", "characters/inventor/charicon_inventor");
+speak("Inventor", "Oh hello the Luck Lady.");
+speak("Inventor", "I have been informed that the Quickmod is all|about going \"Quick\" and so I am|designing a pair of inventive roller skates|what shall make me go rather quick.", "determined");
+speak("Inventor", "I Will be skating around rapidly|as though in a whimsycal cartoon.");
+
+ladyluck_big.show("talking", true);
+actor("Lady Luck", screenwidthmid + 240, screenheightmid - 280, Col.YELLOW, RIGHT, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "AND HOW QUICK IS YOUR CONSTRUCTION OF THEM", "sly");
+ladyluck_big.show("idle", true);
+
+speak("Inventor", "Think I can hit Q4 2038.", "thinking");
+
+ladyluck_big.show("talking", true);
+actor("Lady Luck", screenwidthmid + 240, screenheightmid - 240, Col.YELLOW, RIGHT, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "THERE'S NO TIME. YOUR HAMMER IS ENOUGH");
+speak("Lady Luck", "OR YOUR WHATEVER YOU BROUGHT HERE THIS TIME");
+ladyluck_big.show("talking-sly", true);
+speak("Lady Luck", "I HAVEN'T THE TIME TO CHECK", "sly");
+ladyluck_big.show("idle", true);
+
+speak("Inventor", "But I thought you were a deity above human perception of time.", "worried");
+
+ladyluck_big.show("talking", true);
+actor("Lady Luck", screenwidthmid + 240, screenheightmid - 240, Col.YELLOW, RIGHT, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "YEAH I DON'T CARE");
+ladyluck_big.show("idle", true);
+
+speak("Inventor", "Hm. E = mc square.", "thinking");
+
+ladyluck_big.show("talking-sly", true);
+actor("Lady Luck", screenwidthmid + 240, screenheightmid - 240, Col.YELLOW, RIGHT, BOTTOM, "chat_ladyluck", "characters/misc/charicon_ladyluck");
+speak("Lady Luck", "YOUR INTELLECT MEANS NOTHING IN THIS WASTELAND|IT IS UP TO YOUR PRIMAL INSTINCTS TO SURVIVE.", "sly");
+speak("Lady Luck", "WHEN YOU GO NUMB TO THE NOISE OF EVERYDAY|LIVING PERHAPS IT IS THEN YOU SHALL|\"SPIN THE WHEEL\" AND \"WIN BIG\".", "sly");
+speak("Lady Luck", "UNTIL THEN WHAT LITTLE TIME IS AVAILABLE|IS TIME TO HURT AND SUFFER.", "sly");
+ladyluck_big.show("idle-sly", true);
+Actuate.tween(ladyluck_big, 2, { x: -screenwidth }).ease(Expo.easeIn);
+
+wait(1);
+
+speak("Inventor", "Scientific!", "personality");
+
+
+startgamefromcutscene();

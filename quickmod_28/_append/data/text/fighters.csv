@@ -1,0 +1,2 @@
+ID,Name,Health,Voice,CombatAnimation,CombatAnimationOffset,OverworldAnimation,OverworldAnimationOffset,VfxOffset,BossScreenPosition,Dice,Level,Equipment,Super Equipment,Super Dice,Super Health,Super?,Boss?,Rare?,Script: Before Combat,Script: After Combat,Script: Before Start Turn,Script: On Start Turn,Script: End Turn,Innate,AI,Chat Voice,Chat Style,Always say First Words?,First Words,Always say Last Words?,Last Words 1,Last Words 2,Last Words 3,Last Words (if they win),Last Words Endgame
+quick_lapistotem,Energy Conduit,,,,,moxblue,-60|-30,,,,1000,,,,,,,,,,,,,,,,,,,,,,,,

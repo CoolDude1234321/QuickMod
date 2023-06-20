@@ -1,0 +1,42 @@
+// SETUP
+
+setdatapath("data/graphics/cutscenes/endgame/scene_2/");
+
+addbackground("intro", {sprites: ["background.png"]});
+
+
+var charactergraphics = {
+	idle: {
+		animation: "witch_and_thief.json",
+		pack: "pack.pck",
+		speed: 1,
+		loop: true
+	}
+}
+
+var characters = addsprite("characters", 2, charactergraphics);
+
+play("music_cutscene_cheery");
+changebackground("intro");
+
+fadein();
+
+characters.show("idle", true);
+
+actor("Thief", screenwidthmid + (screenwidthmid / 2) - 200, screenheight - 500, Col.multiplylightness(Col.GREEN, 1.25), CENTER, TOP, "chat_thief", "characters/thief/charicon_thief");
+actor("Witch", screenwidth - 700, 100, 0xb496ec, RIGHT, TOP, "chat_witch", "characters/witch/charicon_witch");
+
+wait(0.5);
+
+speak("Witch", "the Thief, how horrid it is you've|nabbed my book of spellscasting.");
+speak("Witch", "resultingly, I've had to borrow|a worn spellbook more sensible to|a fool or a merrymaker.");
+speak("Witch", "this book will simply cast spells all|Willy-Nilly at a breakneck pace; far beyond|the rate at which a person should|reasonably be expected to handle|the casting of spells.");
+speak("Witch", "i fear my mind shall be permanently|set on overdrive as a result of|adapting to such incessant speed.|my personality will go from|'type A' to 'type B' or god forbid 'type C'");
+speak("Thief", "i don't've time for this.|i have to TikTok Instagram selfie");
+speak("Witch", "ah, out with ye.");
+speak("Witch", "also that's my thing. you can't.|you can't steal my thing");
+speak("Thief", "I am the one who steals & Thieves.");
+speak("Witch", "burn.");
+speak("Witch", "any ways: the show must go on,|as is said in the show business.|toodaloo");
+
+startgamefromcutscene();
